@@ -49,7 +49,7 @@ background-color: #ffffff;
 
 .middle-container{
     color: #777777;
-    /* height: 2000px; */
+    height: 2000px; 
     
 }
 
@@ -91,7 +91,7 @@ background-color: #ffffff;
 }
 .img1{
 
-    float:center;
+    float:left;
 
     text-align: center;
     height:300px;
@@ -105,27 +105,31 @@ background-color: #ffffff;
 
     height:300px;
     width:350px;
+    margin-bottom: 0;
 }
 .img2{
 
-    float:center;
+    float:right;
     height:300px;
     width:350px;
     margin-bottom: 0;
     text-align: center;
     margin-left: 40px;
+    margin-top: 0;
+    margin-right: 40px;
     
 }
 
 .webdev{
-
+margin-top: 0;
     height:300px;
     width:350px;
+    margin-right: 40px;
 }
 
 .img3{
     
-    float:center;
+    float:left;
     height:300px;
     width:350px;
     margin-bottom: 0;
@@ -134,6 +138,27 @@ background-color: #ffffff;
     margin-top: 100px;
     
 }
+
+.img4{
+
+    float:right;
+    height:300px;
+    width:350px;
+    margin-bottom: 0;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: 60px;
+    margin-right: 40px;
+    
+}
+.dice1{
+    margin-top: 40px;
+    height:300px;
+    width:350px;
+    margin-bottom: 0;
+    margin-right: 40px;
+}
+
 
 .health{
 
