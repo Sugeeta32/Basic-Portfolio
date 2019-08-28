@@ -92,12 +92,12 @@ background-color: #ffffff;
 .img1{
 
     float:left;
-
     text-align: center;
     height:300px;
     width:350px;
     margin-bottom: 0;
     margin-left: 40px;
+    margin-top: 0;
     
 }
 
@@ -128,7 +128,7 @@ margin-top: 0;
 }
 
 .img3{
-    
+    clear: both;
     float:left;
     height:300px;
     width:350px;
@@ -136,7 +136,8 @@ margin-top: 0;
     text-align: center;
     margin-left: 40px;
     margin-top: 100px;
-    
+    border: solid;
+
 }
 
 .img4{
@@ -164,6 +165,7 @@ margin-top: 0;
 
     height:300px;
     width:350px;
+    border: solid;
 }
 
 h3{
@@ -186,4 +188,26 @@ h3{
     background-color: #666666;
     color: #ddd;
     margin: 0;
+}
+@media screen and (max-width: 980px){
+
+
+}
+@media screen and (max-width: 768px){
+.content{
+    background-color: rgb(238, 238, 190);
+}
+
+}
+@media screen and (max-width: 640px){
+    .img1, .img2, .img3, .img4, .dice, .webdev, .dice1, .health {
+        margin-top: 0;
+        
+    }
+    .content{
+        background-color: burlywood;
+    }
+    h3{
+        display:none;
+    }
 }
